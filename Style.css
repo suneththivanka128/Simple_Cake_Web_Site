@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans';
+}
+
+/* Header Styling */
+.header {
+    background-color: #FF9D00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header nav ul li {
+    margin: 0 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .btn {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Hero Styling */
+.hero {
+    text-align: center;
+    background-color: #FF9D00;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 72px;
+}
+
+.cakes-display img {
+    width: 300px;
+    margin: -50px;
+}
+
+.hero .btn {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.hero .btn img{
+    width: 20px;
+}
+
+/* Featured Cake Styling */
+.featured-cakes {
+    padding: 50px;
+    text-align: center;
+}
+
+.featured-cakes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cakes-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cake-item {
+    background-color: #FFCE80;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.cake-item img {
+    width: 100%;
+    height: auto;
+}
+
+.cake-item p{
+    font-family: "Lato";
+}
+
+/* Service Styling */
+.services {
+    height: 350px;
+    align-items: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF9D00;
+	color: white;
+    padding: 50px 0;
+}
+
+.services .service-item {
+    text-align: center;
+    width: 30%;
+}
+
+.services .service-item img {
+    height: 100px;
+}
+
+.services .service-item p{
+    font-family: "Lato";
+}
+
+/* About Styling */
+.about {
+    /*display: flex;*/
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.about img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 50%;
+	text-align: justify;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+	text-align: center;
+}
+
+.about .btn {
+    background-color: none;
+    color: #D4066B;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+	border-style: solid;
+	border-color: #D4066B;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #FF9D00;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-social img {
+    width: 25px;
+    transition: transform 0.3s;
+}
+
+.footer-social img:hover {
+    transform: scale(1.2);
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}

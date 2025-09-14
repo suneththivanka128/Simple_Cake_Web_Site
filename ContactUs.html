@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sweet Cakes</title>
+    <link rel="stylesheet" type="text/css" href="StyleContact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Images/Sweet Cakes Bakery House Logo.png" alt="Sweet Cakes Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="MainPage.html">Home</a></li>
+                <li><a href="MainPage.html#Cakes">Cakes</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn">Select Cakes</a>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Mail</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <div class="form-buttons">
+                    <button type="reset" class="btn-clear">Clear</button>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+            </form>
+            <div class="contact-info">
+                <p><img src="Images/whatsapp.png" alt="Phone" width="35px"><br> +94 71 111 24 24</p>
+                <p><img src="Images/email.png" alt="Email" width="35px"><br> sweetcakehouse@email.com</p>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="footer">
+    <div class="footer-container">
+        <!-- Logo and Name -->
+        <div class="footer-logo">
+            <img src="Images/Sweet Cakes Bakery House Logo.png" alt="Sweet Cakes Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+
+        <!-- Social Media Links -->
+        <div class="footer-social">
+            <a href="#"><img src="Images/Youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="Images/Instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="Images/facebook.png" alt="Facebook"></a>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright">
+        &copy; 2024 Cake Showcase. All rights reserved.
+    </div>
+</footer>
+</body>
+</html>
+
